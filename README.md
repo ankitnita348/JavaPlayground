@@ -19,8 +19,8 @@ A method in Java is a block of code that performs a specific task and can be reu
 
 ❌ Problem: Code repetition, harder to maintain.
 
-public class WithoutMethod {
 
+public class WithoutMethod {
 	public static void main(String[] args) {
 
 		/* simple Java program without methods to add two numbers multiple times: */
@@ -75,7 +75,8 @@ Example of a local variable:
 public void printMessage() {
     String message = "Hello, Java!";  // Local variable
     System.out.println(message);
-}  // 'message' is destroyed after method ends
+} 
+// 'message' is destroyed after method ends
 
 🌍 When to Use Global (Instance/Class) Variables?
 
@@ -87,11 +88,9 @@ Example of a global variable (instance variable):
 
 public class Person {
     String name;  // Global (Instance) variable
-
     public void setName(String newName) {
         name = newName;
     }
-
     public void printName() {
         System.out.println("Name: " + name);
     }
